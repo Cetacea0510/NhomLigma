@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -16,6 +16,16 @@ public class demoplayerWenemy : MonoBehaviour
     void Start()
     {
         cunrrentHealth = maxHealth;
+
+        // Kiểm tra và gán Rigidbody2D nếu chưa gán trong Inspector
+        if (rb == null)
+        {
+            rb = GetComponent<Rigidbody2D>();
+            if (rb == null)
+            {
+                Debug.LogError("Rigidbody2D component is missing from this game object!");
+            }
+        }
     }
 
     public void TakeDamage(int damage)
@@ -29,6 +39,7 @@ public class demoplayerWenemy : MonoBehaviour
             Die();
         }
     }
+
     void Die()
     {
         //Debug.Log("Enemy died!");
@@ -39,6 +50,7 @@ public class demoplayerWenemy : MonoBehaviour
         GetComponent<Collider2D>().enabled = false;
         Destroy(gameObject, 0.2f);
     }
+
     private void FixedUpdate()
     {
         float horizontal = Input.GetAxis("Horizontal");
@@ -49,9 +61,13 @@ public class demoplayerWenemy : MonoBehaviour
         {
             Flip();
         }
-        rb.velocity = new Vector2(horizontal, vertical) * speed;
-    }
 
+        // Đảm bảo rằng rb đã được gán trước khi sử dụng
+        if (rb != null)
+        {
+            rb.velocity = new Vector2(horizontal, vertical) * speed;
+        }
+    }
 
     void Flip()
     {
