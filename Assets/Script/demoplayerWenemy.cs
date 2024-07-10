@@ -5,17 +5,15 @@ using UnityEngine;
 public class demoplayerWenemy : MonoBehaviour
 {
     private float speed = 5f;
-    public int facingDirection = 1;
-
     public Rigidbody2D rb;
 
     public int maxHealth = 100;
-    public int cunrrentHealth;
+    public int currentHealth;
 
     // Start is called before the first frame update
     void Start()
     {
-        cunrrentHealth = maxHealth;
+        currentHealth = maxHealth;
 
         // Kiểm tra và gán Rigidbody2D nếu chưa gán trong Inspector
         if (rb == null)
@@ -30,11 +28,11 @@ public class demoplayerWenemy : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-        cunrrentHealth -= damage;
+        currentHealth -= damage;
         //play hurt animation
         //animator.SetTrigger("Hurt");
 
-        if (cunrrentHealth <= 0)
+        if (currentHealth <= 0)
         {
             Die();
         }
@@ -56,22 +54,10 @@ public class demoplayerWenemy : MonoBehaviour
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
 
-        if (horizontal > 0 && transform.localScale.x < 0 ||
-            horizontal < 0 && transform.localScale.x > 0)
-        {
-            Flip();
-        }
-
-        // Đảm bảo rằng rb đã được gán trước khi sử dụng
+        Vector2 movement = new Vector2(horizontal, vertical).normalized;
         if (rb != null)
         {
-            rb.velocity = new Vector2(horizontal, vertical) * speed;
+            rb.velocity = movement * speed;
         }
-    }
-
-    void Flip()
-    {
-        facingDirection *= -1;
-        transform.localScale = new Vector3(transform.localScale.x * -1, transform.localScale.y, transform.localScale.z);
     }
 }
