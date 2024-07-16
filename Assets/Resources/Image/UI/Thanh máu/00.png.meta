@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -71,7 +71,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -95,7 +95,28 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: 00_69
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 34
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5910bbf86f7f9e4459365a4a9506bdf9
+      internalID: 1437877135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +127,93 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      00_0: -1059338397
+      00_1: 1263132830
+      00_10: 150003714
+      00_11: 834084497
+      00_12: 726971436
+      00_13: 187661903
+      00_14: -804099538
+      00_15: 47603240
+      00_16: -1676075269
+      00_17: 53772769
+      00_18: -1786665922
+      00_19: 4611311
+      00_2: 583090533
+      00_20: -1201308230
+      00_21: 1186591937
+      00_22: 1216136240
+      00_23: -1177946352
+      00_24: 1845285980
+      00_25: -386824388
+      00_26: 1235313052
+      00_27: -1313444348
+      00_28: -604658247
+      00_29: -626437488
+      00_3: 654228422
+      00_30: -377567130
+      00_31: -1934576042
+      00_32: 1182537439
+      00_33: 658609506
+      00_34: 523149525
+      00_35: 1709398674
+      00_36: 1247486632
+      00_37: 1209257426
+      00_38: -1622662445
+      00_39: 709578209
+      00_4: -38499245
+      00_40: 766084656
+      00_41: 1253048297
+      00_42: -831851525
+      00_43: 1657513012
+      00_44: 1024012634
+      00_45: -340178809
+      00_46: 342535646
+      00_47: -1495046617
+      00_48: -416796455
+      00_49: 1693716727
+      00_5: 1164717818
+      00_50: -117047057
+      00_51: 1576936969
+      00_52: 115348461
+      00_53: -485752813
+      00_54: 78657897
+      00_55: 1597055579
+      00_56: 784879771
+      00_57: 1871470213
+      00_58: -1942338728
+      00_59: 336903326
+      00_6: -36376568
+      00_60: 2118100420
+      00_61: 762683042
+      00_62: 1851671901
+      00_63: 1839532897
+      00_64: -1021985231
+      00_65: -910415653
+      00_66: -1683518145
+      00_67: -2071455092
+      00_68: -1334996347
+      00_69: 1437877135
+      00_7: -1542464110
+      00_70: -1895809383
+      00_71: -1063753403
+      00_72: 1494329213
+      00_73: 1449396409
+      00_74: -367851425
+      00_75: 257367060
+      00_76: 9654194
+      00_77: 66260273
+      00_78: 273153043
+      00_79: -1001317044
+      00_8: -1625452919
+      00_80: 651084531
+      00_81: 1209781294
+      00_82: -975899556
+      00_83: -2125196853
+      00_84: -300379516
+      00_85: 154184123
+      00_9: 660962535
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
