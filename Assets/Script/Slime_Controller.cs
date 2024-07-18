@@ -1,9 +1,9 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR;
 
-public class Enemy_Controllers : MonoBehaviour
+public class Slime_Controller : MonoBehaviour
 {
     private float speed = 2f;
     private int facingDirection = 1;
@@ -63,8 +63,8 @@ public class Enemy_Controllers : MonoBehaviour
     {
         if (enemyState == EnemyState.Chasing)
         {
-            if (player.position.x > transform.position.x && facingDirection == -1 ||
-                 player.position.x < transform.position.x && facingDirection == 1)
+            if (player.position.x > transform.position.x && facingDirection == 1 ||
+                 player.position.x < transform.position.x && facingDirection == -1)
             {
                 Flip();
             }
@@ -92,7 +92,7 @@ public class Enemy_Controllers : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.tag == "Player")
+        if (collision.gameObject.tag == "Player")
         {
             if (player == null)
             {
@@ -152,7 +152,7 @@ public class Enemy_Controllers : MonoBehaviour
             anim.SetBool("isChasing", true);
     }
 }
-public enum EnemyState
+public enum SlimeState
 {
     Idle,
     Chasing,
