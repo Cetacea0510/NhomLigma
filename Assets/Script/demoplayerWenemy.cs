@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class demoplayerWenemy : MonoBehaviour
 {
@@ -9,13 +10,30 @@ public class demoplayerWenemy : MonoBehaviour
 
     public Rigidbody2D rb;
 
-    public int maxHealth = 100;
-    public int cunrrentHealth;
+    public float maxHealth = 100;
+    public float cunrrentHealth;
+
+    public Image hpImage;
+    public Image hpDelayImage;
+    public float hurtSpeed = 0.5f;
 
     // Start is called before the first frame update
     void Start()
     {
         cunrrentHealth = maxHealth;
+    }
+
+    public void Update()
+    {
+        hpImage.fillAmount = cunrrentHealth / maxHealth;
+        if (hpDelayImage.fillAmount > hpImage.fillAmount)
+        {
+            hpDelayImage.fillAmount -= hurtSpeed;
+        }
+        else
+        {
+            hpDelayImage.fillAmount = hpImage.fillAmount;
+        }
     }
 
     public void TakeDamage(int damage)
