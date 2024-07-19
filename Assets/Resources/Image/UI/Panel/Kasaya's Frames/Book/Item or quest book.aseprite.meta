@@ -132,11 +132,7 @@ ScriptedImporter:
       y: 4
       width: 222
       height: 156
-<<<<<<< Updated upstream
-    spriteID: 1758444cce651ba40bbabc84efadcd66
-=======
-    spriteID: 1f7992a795ed87b469d75282c539b531
->>>>>>> Stashed changes
+    spriteID: b1f85c9fb1867c842a618aeae20b33a3
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -156,11 +152,7 @@ ScriptedImporter:
       y: 168
       width: 222
       height: 156
-<<<<<<< Updated upstream
-    spriteID: b6ad513a784e03d46998e89041cdd3fb
-=======
-    spriteID: b6ac480b68eb8954eb3584708c93521b
->>>>>>> Stashed changes
+    spriteID: d3bfa97b820382e41b3d4175c885ee6f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -180,11 +172,7 @@ ScriptedImporter:
       y: 332
       width: 222
       height: 156
-<<<<<<< Updated upstream
-    spriteID: 6ed387b149f4ea642b763511c62cb64b
-=======
-    spriteID: b99fa316b479d6d489f7e3c27481ac0e
->>>>>>> Stashed changes
+    spriteID: d4715f793f3e07e428c79ad4fc5e8ea1
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -204,11 +192,7 @@ ScriptedImporter:
       y: 4
       width: 222
       height: 156
-<<<<<<< Updated upstream
-    spriteID: 9ab2868520ef648429d34b5d5123deea
-=======
-    spriteID: b52862e857529b9489dbcf48320762c9
->>>>>>> Stashed changes
+    spriteID: 2dacf474b7ce67a4ca18a13849c73983
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -233,11 +217,7 @@ ScriptedImporter:
         y: 2
         width: 222
         height: 156
-<<<<<<< Updated upstream
-      spriteId: 1758444cce651ba40bbabc84efadcd66
-=======
-      spriteId: 1f7992a795ed87b469d75282c539b531
->>>>>>> Stashed changes
+      spriteId: b1f85c9fb1867c842a618aeae20b33a3
     - name: Item or quest book_Frame_1
       frameIndex: 1
       cellRect:
@@ -245,11 +225,7 @@ ScriptedImporter:
         y: 2
         width: 222
         height: 156
-<<<<<<< Updated upstream
-      spriteId: b6ad513a784e03d46998e89041cdd3fb
-=======
-      spriteId: b6ac480b68eb8954eb3584708c93521b
->>>>>>> Stashed changes
+      spriteId: d3bfa97b820382e41b3d4175c885ee6f
     - name: Item or quest book_Frame_2
       frameIndex: 2
       cellRect:
@@ -257,11 +233,7 @@ ScriptedImporter:
         y: 2
         width: 222
         height: 156
-<<<<<<< Updated upstream
-      spriteId: 6ed387b149f4ea642b763511c62cb64b
-=======
-      spriteId: b99fa316b479d6d489f7e3c27481ac0e
->>>>>>> Stashed changes
+      spriteId: d4715f793f3e07e428c79ad4fc5e8ea1
     - name: Item or quest book_Frame_3
       frameIndex: 3
       cellRect:
@@ -269,11 +241,7 @@ ScriptedImporter:
         y: 2
         width: 222
         height: 156
-<<<<<<< Updated upstream
-      spriteId: 9ab2868520ef648429d34b5d5123deea
-=======
-      spriteId: b52862e857529b9489dbcf48320762c9
->>>>>>> Stashed changes
+      spriteId: 2dacf474b7ce67a4ca18a13849c73983
     linkedCells: []
     parentIndex: -1
   platformSettings: []

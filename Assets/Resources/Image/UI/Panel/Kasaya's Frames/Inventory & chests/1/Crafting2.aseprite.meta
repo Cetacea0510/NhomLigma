@@ -132,11 +132,7 @@ ScriptedImporter:
       y: 4
       width: 79
       height: 60
-<<<<<<< Updated upstream
-    spriteID: 0a57eba92cbbc6a42839eee513b111df
-=======
-    spriteID: b2982d638817fb14685ac3556b1b9aaf
->>>>>>> Stashed changes
+    spriteID: eebcdcdcc77eb204f84f96017aa62c50
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -156,11 +152,7 @@ ScriptedImporter:
       y: 72
       width: 79
       height: 60
-<<<<<<< Updated upstream
-    spriteID: dc492c3118d81084fa9571aa955377da
-=======
-    spriteID: 2e32a1459e43fc047ba526fa1b2d9b33
->>>>>>> Stashed changes
+    spriteID: 71d571844a5516e4d891f7d62b586a97
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -185,11 +177,7 @@ ScriptedImporter:
         y: 0
         width: 79
         height: 60
-<<<<<<< Updated upstream
-      spriteId: 0a57eba92cbbc6a42839eee513b111df
-=======
-      spriteId: b2982d638817fb14685ac3556b1b9aaf
->>>>>>> Stashed changes
+      spriteId: eebcdcdcc77eb204f84f96017aa62c50
     - name: Crafting2_Frame_1
       frameIndex: 1
       cellRect:
@@ -197,11 +185,7 @@ ScriptedImporter:
         y: 0
         width: 79
         height: 60
-<<<<<<< Updated upstream
-      spriteId: dc492c3118d81084fa9571aa955377da
-=======
-      spriteId: 2e32a1459e43fc047ba526fa1b2d9b33
->>>>>>> Stashed changes
+      spriteId: 71d571844a5516e4d891f7d62b586a97
     linkedCells: []
     parentIndex: -1
   platformSettings: []

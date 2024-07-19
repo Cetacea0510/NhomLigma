@@ -132,11 +132,7 @@ ScriptedImporter:
       y: 4
       width: 145
       height: 178
-<<<<<<< Updated upstream
-    spriteID: 174aba8bd5117574f9f02dc64aaa5069
-=======
-    spriteID: cb98589d37f711c49b3e03bf94076367
->>>>>>> Stashed changes
+    spriteID: 8d7cfcd01fc42d44ba965dd54adb3611
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -156,11 +152,7 @@ ScriptedImporter:
       y: 190
       width: 145
       height: 178
-<<<<<<< Updated upstream
-    spriteID: 313d813cba875e84ab07fd125abca849
-=======
-    spriteID: 41de6426a8358524d9831c52c1c28157
->>>>>>> Stashed changes
+    spriteID: bf801ccc040063540a2b8e60c6dc3c93
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -180,11 +172,7 @@ ScriptedImporter:
       y: 4
       width: 145
       height: 178
-<<<<<<< Updated upstream
-    spriteID: 905c06f7217ea91498564cdbf70fc2c9
-=======
-    spriteID: 6d84d2ea5528b574c8d3344ccf19e8c6
->>>>>>> Stashed changes
+    spriteID: b27645644ee4a3c4d82c34de61a1aab8
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -204,11 +192,7 @@ ScriptedImporter:
       y: 190
       width: 145
       height: 178
-<<<<<<< Updated upstream
-    spriteID: 9829e872388b9c844be172135d93f4b2
-=======
-    spriteID: bfcde35e54ba6844c914a1f691b2a772
->>>>>>> Stashed changes
+    spriteID: 914999e881f712f46b68ffced2a3c3ef
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -233,11 +217,7 @@ ScriptedImporter:
         y: 0
         width: 145
         height: 178
-<<<<<<< Updated upstream
-      spriteId: 174aba8bd5117574f9f02dc64aaa5069
-=======
-      spriteId: cb98589d37f711c49b3e03bf94076367
->>>>>>> Stashed changes
+      spriteId: 8d7cfcd01fc42d44ba965dd54adb3611
     - name: inventory_Frame_1
       frameIndex: 1
       cellRect:
@@ -245,11 +225,7 @@ ScriptedImporter:
         y: 0
         width: 145
         height: 178
-<<<<<<< Updated upstream
-      spriteId: 313d813cba875e84ab07fd125abca849
-=======
-      spriteId: 41de6426a8358524d9831c52c1c28157
->>>>>>> Stashed changes
+      spriteId: bf801ccc040063540a2b8e60c6dc3c93
     - name: inventory_Frame_2
       frameIndex: 2
       cellRect:
@@ -257,11 +233,7 @@ ScriptedImporter:
         y: 0
         width: 145
         height: 178
-<<<<<<< Updated upstream
-      spriteId: 905c06f7217ea91498564cdbf70fc2c9
-=======
-      spriteId: 6d84d2ea5528b574c8d3344ccf19e8c6
->>>>>>> Stashed changes
+      spriteId: b27645644ee4a3c4d82c34de61a1aab8
     - name: inventory_Frame_3
       frameIndex: 3
       cellRect:
@@ -269,11 +241,7 @@ ScriptedImporter:
         y: 0
         width: 145
         height: 178
-<<<<<<< Updated upstream
-      spriteId: 9829e872388b9c844be172135d93f4b2
-=======
-      spriteId: bfcde35e54ba6844c914a1f691b2a772
->>>>>>> Stashed changes
+      spriteId: 914999e881f712f46b68ffced2a3c3ef
     linkedCells: []
     parentIndex: -1
   platformSettings: []

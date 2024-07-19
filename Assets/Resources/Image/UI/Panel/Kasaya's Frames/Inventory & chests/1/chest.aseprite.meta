@@ -132,11 +132,7 @@ ScriptedImporter:
       y: 4
       width: 77
       height: 60
-<<<<<<< Updated upstream
-    spriteID: 1d9a4bce2b6a718439b107e2fc7502a5
-=======
-    spriteID: 1fc230fc884161f43be2030d4fd452fb
->>>>>>> Stashed changes
+    spriteID: 610ea7c8b4764d54aad5631c816d7443
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -156,11 +152,7 @@ ScriptedImporter:
       y: 72
       width: 77
       height: 60
-<<<<<<< Updated upstream
-    spriteID: 11873038dbf8ac149907005fbff9cca3
-=======
-    spriteID: d9ec355ea1538f741971a92467dd0bf4
->>>>>>> Stashed changes
+    spriteID: 89607d58e0fa8c741a416bee12bd8f2a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -185,11 +177,7 @@ ScriptedImporter:
         y: 0
         width: 77
         height: 60
-<<<<<<< Updated upstream
-      spriteId: 1d9a4bce2b6a718439b107e2fc7502a5
-=======
-      spriteId: 1fc230fc884161f43be2030d4fd452fb
->>>>>>> Stashed changes
+      spriteId: 610ea7c8b4764d54aad5631c816d7443
     - name: chest_Frame_1
       frameIndex: 1
       cellRect:
@@ -197,11 +185,7 @@ ScriptedImporter:
         y: 0
         width: 77
         height: 60
-<<<<<<< Updated upstream
-      spriteId: 11873038dbf8ac149907005fbff9cca3
-=======
-      spriteId: d9ec355ea1538f741971a92467dd0bf4
->>>>>>> Stashed changes
+      spriteId: 89607d58e0fa8c741a416bee12bd8f2a
     linkedCells: []
     parentIndex: -1
   platformSettings: []
