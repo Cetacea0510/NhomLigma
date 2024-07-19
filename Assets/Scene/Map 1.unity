@@ -814,10 +814,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7175024128033036987, guid: 4a4802ff27adaf44d953403320eebd35, type: 3}
-      propertyPath: m_Intensity
-      value: 0.005
-      objectReference: {fileID: 0}
     - target: {fileID: 8710317967916561327, guid: 4a4802ff27adaf44d953403320eebd35, type: 3}
       propertyPath: m_Name
       value: Global Light 2D
