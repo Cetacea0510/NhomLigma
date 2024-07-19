@@ -132,7 +132,11 @@ ScriptedImporter:
       y: 4
       width: 384
       height: 66
+<<<<<<< Updated upstream
     spriteID: 35b5d8991d62e684497959df15d611d8
+=======
+    spriteID: 585783ed9a023f248a8f3ddf1abeb146
+>>>>>>> Stashed changes
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -152,7 +156,11 @@ ScriptedImporter:
       y: 78
       width: 384
       height: 66
+<<<<<<< Updated upstream
     spriteID: fa00e346e4d213a42b668f83dfb3da43
+=======
+    spriteID: e23c0d252e8df2947b6381b7c1045ef3
+>>>>>>> Stashed changes
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -177,7 +185,11 @@ ScriptedImporter:
         y: 0
         width: 384
         height: 66
+<<<<<<< Updated upstream
       spriteId: 35b5d8991d62e684497959df15d611d8
+=======
+      spriteId: 585783ed9a023f248a8f3ddf1abeb146
+>>>>>>> Stashed changes
     - name: dialogues_Frame_1
       frameIndex: 1
       cellRect:
@@ -185,7 +197,11 @@ ScriptedImporter:
         y: 0
         width: 384
         height: 66
+<<<<<<< Updated upstream
       spriteId: fa00e346e4d213a42b668f83dfb3da43
+=======
+      spriteId: e23c0d252e8df2947b6381b7c1045ef3
+>>>>>>> Stashed changes
     linkedCells: []
     parentIndex: -1
   platformSettings: []

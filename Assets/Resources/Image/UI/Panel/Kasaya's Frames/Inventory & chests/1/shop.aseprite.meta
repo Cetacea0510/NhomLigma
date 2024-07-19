@@ -132,7 +132,11 @@ ScriptedImporter:
       y: 4
       width: 161
       height: 94
+<<<<<<< Updated upstream
     spriteID: 7d299fe0671b63f46a22aa9afe407915
+=======
+    spriteID: a6a884fa8d35f6546bc48799a61cdd1f
+>>>>>>> Stashed changes
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -152,7 +156,11 @@ ScriptedImporter:
       y: 106
       width: 161
       height: 94
+<<<<<<< Updated upstream
     spriteID: 1e61a04349dc5c34a8fe6019a105bdcf
+=======
+    spriteID: 6d9b22293d134914fbadffe5a6de9e8f
+>>>>>>> Stashed changes
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -177,7 +185,11 @@ ScriptedImporter:
         y: 0
         width: 161
         height: 94
+<<<<<<< Updated upstream
       spriteId: 7d299fe0671b63f46a22aa9afe407915
+=======
+      spriteId: a6a884fa8d35f6546bc48799a61cdd1f
+>>>>>>> Stashed changes
     - name: shop_Frame_1
       frameIndex: 1
       cellRect:
@@ -185,7 +197,11 @@ ScriptedImporter:
         y: 0
         width: 161
         height: 94
+<<<<<<< Updated upstream
       spriteId: 1e61a04349dc5c34a8fe6019a105bdcf
+=======
+      spriteId: 6d9b22293d134914fbadffe5a6de9e8f
+>>>>>>> Stashed changes
     linkedCells: []
     parentIndex: -1
   platformSettings: []

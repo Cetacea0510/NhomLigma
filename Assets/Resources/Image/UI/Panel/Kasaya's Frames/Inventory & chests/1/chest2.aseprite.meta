@@ -132,7 +132,11 @@ ScriptedImporter:
       y: 4
       width: 111
       height: 77
+<<<<<<< Updated upstream
     spriteID: 8fe211dc572d7a64395bc0580c5eb04f
+=======
+    spriteID: 59b74a8fb9df987458c92f28f7185697
+>>>>>>> Stashed changes
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -152,7 +156,11 @@ ScriptedImporter:
       y: 89
       width: 111
       height: 77
+<<<<<<< Updated upstream
     spriteID: 40cabc9f5c0323244a4ffb278563a1bc
+=======
+    spriteID: fdc2a4c251a29b249a54850dedcf3ecb
+>>>>>>> Stashed changes
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -177,7 +185,11 @@ ScriptedImporter:
         y: 0
         width: 111
         height: 77
+<<<<<<< Updated upstream
       spriteId: 8fe211dc572d7a64395bc0580c5eb04f
+=======
+      spriteId: 59b74a8fb9df987458c92f28f7185697
+>>>>>>> Stashed changes
     - name: chest2_Frame_1
       frameIndex: 1
       cellRect:
@@ -185,7 +197,11 @@ ScriptedImporter:
         y: 0
         width: 111
         height: 77
+<<<<<<< Updated upstream
       spriteId: 40cabc9f5c0323244a4ffb278563a1bc
+=======
+      spriteId: fdc2a4c251a29b249a54850dedcf3ecb
+>>>>>>> Stashed changes
     linkedCells: []
     parentIndex: -1
   platformSettings: []
