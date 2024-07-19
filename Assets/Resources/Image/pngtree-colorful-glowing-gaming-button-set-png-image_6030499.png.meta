@@ -1,0 +1,353 @@
+fileFormatVersion: 2
+guid: 97b3c4c101619d2478baf44f5b39716b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pngtree-colorful-glowing-gaming-button-set-png-image_6030499_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 899
+        width: 246
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa861899c864a6c409f81c75db094745
+      internalID: -236445782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-colorful-glowing-gaming-button-set-png-image_6030499_1
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 897
+        width: 217
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f27ea464d465e65499651a46e4e46e0c
+      internalID: 1992469709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-colorful-glowing-gaming-button-set-png-image_6030499_4
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 937
+        width: 649
+        height: 255
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 434d700c72ccaf14d82d2b5b33166461
+      internalID: 298845585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-colorful-glowing-gaming-button-set-png-image_6030499_5
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 666
+        width: 211
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e740301030cb07747a8a371ec2aa97f9
+      internalID: -917218718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-colorful-glowing-gaming-button-set-png-image_6030499_6
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 328
+        width: 678
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 156, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ca92cca623a0f4e8c5c67e2944d278
+      internalID: 500957484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-colorful-glowing-gaming-button-set-png-image_6030499_7
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 719
+        width: 672
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0dcc6b2486dfb04690dee36ae2af4b0
+      internalID: 567390994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-colorful-glowing-gaming-button-set-png-image_6030499_8
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 346
+        width: 246
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e6ad5dc933ce54cbaa72f893bcb5dc
+      internalID: 1983989275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-colorful-glowing-gaming-button-set-png-image_6030499_9
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 14
+        width: 659
+        height: 393
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba34eeebcf6acb4fa88bb4f467769d3
+      internalID: 350272963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-colorful-glowing-gaming-button-set-png-image_6030499_10
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 378
+        width: 241
+        height: 245
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de8b399c12d03e49aa916bcc3602ba5
+      internalID: -2061394665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-colorful-glowing-gaming-button-set-png-image_6030499_13
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 14
+        width: 404
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed9e47f14205bd449ae9ee368f9e3f7
+      internalID: 1081042409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      pngtree-colorful-glowing-gaming-button-set-png-image_6030499_0: -236445782
+      pngtree-colorful-glowing-gaming-button-set-png-image_6030499_1: 1992469709
+      pngtree-colorful-glowing-gaming-button-set-png-image_6030499_10: -2061394665
+      pngtree-colorful-glowing-gaming-button-set-png-image_6030499_11: -1163620419
+      pngtree-colorful-glowing-gaming-button-set-png-image_6030499_12: 218217809
+      pngtree-colorful-glowing-gaming-button-set-png-image_6030499_13: 1081042409
+      pngtree-colorful-glowing-gaming-button-set-png-image_6030499_14: 962214393
+      pngtree-colorful-glowing-gaming-button-set-png-image_6030499_15: -1492128181
+      pngtree-colorful-glowing-gaming-button-set-png-image_6030499_2: -1815685246
+      pngtree-colorful-glowing-gaming-button-set-png-image_6030499_3: -966006165
+      pngtree-colorful-glowing-gaming-button-set-png-image_6030499_4: 298845585
+      pngtree-colorful-glowing-gaming-button-set-png-image_6030499_5: -917218718
+      pngtree-colorful-glowing-gaming-button-set-png-image_6030499_6: 500957484
+      pngtree-colorful-glowing-gaming-button-set-png-image_6030499_7: 567390994
+      pngtree-colorful-glowing-gaming-button-set-png-image_6030499_8: 1983989275
+      pngtree-colorful-glowing-gaming-button-set-png-image_6030499_9: 350272963
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
