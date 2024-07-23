@@ -5874,7 +5874,8 @@ EdgeCollider2D:
   - {x: 34.36539, y: -38.898518}
   - {x: 35.347126, y: -40.271034}
   - {x: 34.114464, y: -49.784443}
-  - {x: 26.164127, y: -55.36126}
+  - {x: 26.545101, y: -48.599987}
+  - {x: 22.49498, y: -48.69565}
   - {x: 19.387144, y: -50.329174}
   - {x: 19.484987, y: -48.16028}
   - {x: 16.054123, y: -47.45519}
@@ -49734,7 +49735,7 @@ Transform:
   m_GameObject: {fileID: 1386359496}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 26.42, y: -47.71, z: 0}
+  m_LocalPosition: {x: 26.42, y: -37.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
