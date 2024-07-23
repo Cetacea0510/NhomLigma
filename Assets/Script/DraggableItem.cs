@@ -1,15 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
 public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler ,IEndDragHandler
 {
-    public int sortingOrderOffset = 220;
+    Transform parentAfterDrag;
     public void OnBeginDrag(PointerEventData eventData)
     {
         Debug.Log("Begin drag");
-        //transform.GetComponent<CanvasRenderer>().sortingOrder = sortingOrderOffset;
+        parentAfterDrag = transform.parent;
+        transform.SetParent(transform.root);
+        transform.SetAsLastSibling();
+        //transform.GetComponent<Canvas>().sortingOrder -= sortingOrderOffset;
     }
 
     public void OnDrag(PointerEventData eventData)
@@ -21,7 +25,8 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler ,IEn
     public void OnEndDrag(PointerEventData eventData)
     {
         Debug.Log("End drag");
-        //transform.GetComponent<CanvasRenderer>().sortingOrder -= sortingOrderOffset;
+        transform.SetParent(parentAfterDrag);
+        //transform.GetComponent<Canvas>().sortingOrder -= sortingOrderOffset;
     }
 
 }
