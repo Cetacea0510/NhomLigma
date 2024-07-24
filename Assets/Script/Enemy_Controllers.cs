@@ -43,11 +43,11 @@ public class Enemy_Controllers : MonoBehaviour
     public Transform attackPoint;
     public LayerMask playerLayers;
 
-    private float attackRange = 0.95f;
+    public float attackRange = 0.95f;
     public int attackDamage = 20;
 
     //thoi gian tan cong
-    private float attackRate = 2f;//2
+    private float attackRate = 1f;//1
     float nextAttackTime = 0f;//0
     // Start is called before the first frame update
     void Start()
@@ -74,7 +74,7 @@ public class Enemy_Controllers : MonoBehaviour
             if (Time.time >= nextAttackTime)
             {
                 Attack();
-                nextAttackTime = Time.time + 3f / attackRate;
+                nextAttackTime = Time.time + 2f / attackRate;
             }
         }
     }
