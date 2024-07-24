@@ -72,8 +72,14 @@ public class PlayerControll : MonoBehaviour
 
         void Shoot()
     {
-        GameObject bullet = Instantiate(bulletPrefabs, firePoint.position, firePoint.rotation);
-        
+        Vector3 mousePos = Input.mousePosition;
+        mousePos = Camera.main.ScreenToWorldPoint(mousePos);
+
+        Vector2 direction = new Vector2(mousePos.x - firePoint.position.x, mousePos.y - firePoint.position.y);
+        direction.Normalize();
+
+        GameObject bullet = Instantiate(bulletPrefabs, firePoint.position, Quaternion.Euler(0, 0, Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg));
+
     }
 
 }
