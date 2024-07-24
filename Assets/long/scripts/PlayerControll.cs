@@ -80,6 +80,7 @@ public class PlayerControll : MonoBehaviour
 
         GameObject bullet = Instantiate(bulletPrefabs, firePoint.position, Quaternion.Euler(0, 0, Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg));
 
+        
     }
 
 }
