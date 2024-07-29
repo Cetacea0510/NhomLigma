@@ -28,8 +28,8 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        transform.position = parentAfterDrag.position;
         transform.SetParent(parentAfterDrag);
+        transform.position = parentAfterDrag.position;
         Debug.Log("End Dragging");
         image.raycastTarget = true;
     }
