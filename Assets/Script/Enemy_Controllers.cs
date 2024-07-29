@@ -29,6 +29,7 @@ public class Enemy_Controllers : MonoBehaviour
             if (value <= 0)
             {
                 anim.SetBool("isAlive", false);
+                ScoreManager.instance.AddPoint();
                 Destroy(gameObject, 1);
             }
         }
