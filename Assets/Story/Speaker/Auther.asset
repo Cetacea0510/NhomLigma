@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a8b868ee6503e448ac6fcd61b407fa2, type: 3}
-  m_Name: Narrator
+  m_Name: Auther
   m_EditorClassIdentifier: 
-  speakerName: "Ng\u01B0\u1EDDi D\u1EABn Truy\u1EC7n"
-  textColor: {r: 0.7366188, g: 0.0127091, b: 0.9622642, a: 0}
+  speakerName: 
+  textColor: {r: 0, g: 0, b: 0, a: 0}
