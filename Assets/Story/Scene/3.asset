@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f60d4f924641f7245b84a3026f2b0655, type: 3}
-  m_Name: 2
+  m_Name: 3
   m_EditorClassIdentifier: 
   sentences:
-  - text: "...khi vi\xEAn ng\u1ECDc b\u1EA3o h\u1ED9 c\u1EE7a n\xF3, Ng\u1ECDc S\xE1ng."
+  - text: "B\u1ECB \u0111\xE1nh c\u1EAFp b\u1EDFi nh\u1EEFng th\u1EBF l\u1EF1c \u0111en
+      t\u1ED1i"
     speaker: {fileID: 11400000, guid: 5027672d03a22344f97c407cb60aa1ee, type: 2}
-  background: {fileID: 21300000, guid: 0cc8a67aaf39f5444a6e0d19d4320ca5, type: 3}
-  nextScene: {fileID: 11400000, guid: 286e3f87cde63a94c9fb9316330350cd, type: 2}
+  background: {fileID: 21300000, guid: c2134b5698c79a64f94b9d17bdc929e7, type: 3}
+  nextScene: {fileID: 11400000, guid: 52db53f01722336499307637cb95f846, type: 2}

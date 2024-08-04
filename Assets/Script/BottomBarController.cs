@@ -9,7 +9,7 @@ public class BottomBarController : MonoBehaviour
     public TextMeshProUGUI personNameText;
 
     private int sentenceIndex = -1;
-    public StoryScene currentScene;
+    private StoryScene currentScene;
     private State state = State.COMPLETED;
 
     private enum State
@@ -21,21 +21,16 @@ public class BottomBarController : MonoBehaviour
     {
         currentScene = scene;
         sentenceIndex = -1;
+        PlayNextSentence();
     }
-
     public void PlayNextSentence()
     {
-        if (currentScene != null && sentenceIndex + 1 < currentScene.sentences.Count)
-        {
-            sentenceIndex++;
-            StartCoroutine(TypeText(currentScene.sentences[sentenceIndex].text));
-            personNameText.text = currentScene.sentences[sentenceIndex].speaker.speakerName;
-        }
-        else
-        {
-            Debug.LogWarning("No more sentences to play or currentScene is null");
-        }
+        StartCoroutine(TypeText(currentScene.sentences[++sentenceIndex].text));
+        personNameText.text = currentScene.sentences[sentenceIndex].speaker.speakerName;
+        personNameText.color = currentScene.sentences[sentenceIndex].speaker.textColor;
     }
+
+   
 
     public bool IsCompleted()
     {
