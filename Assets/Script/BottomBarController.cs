@@ -30,8 +30,6 @@ public class BottomBarController : MonoBehaviour
         personNameText.color = currentScene.sentences[sentenceIndex].speaker.textColor;
     }
 
-   
-
     public bool IsCompleted()
     {
         return state == State.COMPLETED;
