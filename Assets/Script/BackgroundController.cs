@@ -30,6 +30,14 @@ public class BackgroundController : MonoBehaviour
 
         // Cập nhật chỉ số hình nền
         currentIndex = (currentIndex + 1) % backgrounds.Length;
+        if (animator != null)
+        {
+            animator.SetTrigger("Switch");
+        }
+        else
+        {
+            Debug.LogError("Animator is not assigned!");
+        }
     }
 
     public void SetImage(Sprite sprite)
