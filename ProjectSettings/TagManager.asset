@@ -6,15 +6,17 @@ TagManager:
   tags:
   - Map
   - Treasure
+
+  tags: []
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Player
+  - 
   - Water
   - UI
-  - Ground
-  - ItemUI
+  - 
+  - 
   - 
   - 
   - 
@@ -42,7 +44,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Item
-    uniqueID: 1311041837
     locked: 0

@@ -14,19 +14,22 @@ public class PlayerControll : MonoBehaviour
     public float fireRate = 0.5f;
     private float nextFireTime;
 
-
+    
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+       
     }
 
     // Update is called once per frame
     void Update()
     {
         moveInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+
+        
 
         UpdateAnimationState();
 

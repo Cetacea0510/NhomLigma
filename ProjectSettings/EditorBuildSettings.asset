@@ -8,4 +8,13 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Ngoc.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scene/Map 1.unity
+    guid: 8f847f714007fd949bef3b88be84e6e5
+  - enabled: 1
+    path: Assets/Scene/Map 2.unity
+    guid: 49d8557ce112d9d4383c8f9672651c83
+  - enabled: 1
+    path: Assets/Scene/Map 3.unity
+    guid: 93de320c388763a419bf8e2148006f6e
   m_configObjects: {}
