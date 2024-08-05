@@ -1,0 +1,700 @@
+fileFormatVersion: 2
+guid: cb9e79579f8df7449b9013ac46ee0f8f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GUI_1x_sliced_119
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 34
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8acd57624ab836d4b9417ed7111e962a
+      internalID: -737342230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_1x_sliced_145
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd19880bc84c0aa4bb0d8b0de38f000b
+      internalID: 1753377014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_1x_sliced_146
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 17
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86c58600b4252cf459cd4c1a293ded30
+      internalID: 807587608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_1x_sliced_147
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beddc29dc8dafc747a3c9597c53913c6
+      internalID: -414509956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_1x_sliced_148
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 10
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c48fed727c40baf43a76a218868c5c1f
+      internalID: -1575375580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_1x_sliced_149
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3823bd4d739387b44a7780567e99b192
+      internalID: -1186258173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_1x_sliced_150
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 10
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e4694fb9438eee448e0f9fa1000af48
+      internalID: 1886735197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_1x_sliced_151
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 10
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da81f10209f130b448a501573c086c86
+      internalID: 1399108174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_1x_sliced_152
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e16c0c838a7d941ac5ab42ef78f419
+      internalID: 765434162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_1x_sliced_153
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94194eb66e8e91c4e9af94d50f816f36
+      internalID: 1110479333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_1x_sliced_154
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 11
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e71294626e5d764ea73d014bbcf2ba6
+      internalID: 1983927800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_1x_sliced_157
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 7
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5872924e85a23be4f8617779fe9a1b9f
+      internalID: -219228115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_1x_sliced_158
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a11639d8ac89a8a418d60c703f1ed118
+      internalID: 70655126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_1x_sliced_159
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 764289eb9ef91594eba2d3bc976d48ac
+      internalID: -639085315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_1x_sliced_160
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 011d64ad3a2831b41b75bffc1b3b134b
+      internalID: 1100821791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_1x_sliced_161
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1027c19d8cad0e04c8770acf54680f9b
+      internalID: 424119276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_1x_sliced_162
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 332343d0f6ac6bd4babaf6d443e0e919
+      internalID: 1221847459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_1x_sliced_163
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 1
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db7f3c82b994666478bb7924c1aef66a
+      internalID: 142579685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_1x_sliced_164
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4010575d07f871c46a44cd0982a4764c
+      internalID: 1272277122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_1x_sliced_165
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 1
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f0801f2fd13f1c44b58a4de0a4d69ff
+      internalID: -954453521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      GUI_1x_sliced_0: -145948106
+      GUI_1x_sliced_1: -1877325986
+      GUI_1x_sliced_10: -1133466640
+      GUI_1x_sliced_100: -387754769
+      GUI_1x_sliced_101: -660753361
+      GUI_1x_sliced_102: 1986630303
+      GUI_1x_sliced_103: 1690513863
+      GUI_1x_sliced_104: -1219148266
+      GUI_1x_sliced_105: -646549742
+      GUI_1x_sliced_106: -1545845276
+      GUI_1x_sliced_107: 1037512654
+      GUI_1x_sliced_108: 178368324
+      GUI_1x_sliced_109: 116544193
+      GUI_1x_sliced_11: -1921226976
+      GUI_1x_sliced_110: -2142955761
+      GUI_1x_sliced_111: -1815438505
+      GUI_1x_sliced_112: -778695110
+      GUI_1x_sliced_113: -307079714
+      GUI_1x_sliced_114: -1863010924
+      GUI_1x_sliced_115: 2114745888
+      GUI_1x_sliced_116: -1474220781
+      GUI_1x_sliced_117: -1195133204
+      GUI_1x_sliced_118: -615210228
+      GUI_1x_sliced_119: -737342230
+      GUI_1x_sliced_12: 1941080346
+      GUI_1x_sliced_120: 988007997
+      GUI_1x_sliced_121: -832790302
+      GUI_1x_sliced_122: -1414790738
+      GUI_1x_sliced_123: -611541469
+      GUI_1x_sliced_124: -138479617
+      GUI_1x_sliced_125: 485787693
+      GUI_1x_sliced_126: -503909377
+      GUI_1x_sliced_127: 1143252470
+      GUI_1x_sliced_128: -122106493
+      GUI_1x_sliced_129: 1217467027
+      GUI_1x_sliced_13: 708389413
+      GUI_1x_sliced_130: -719082208
+      GUI_1x_sliced_131: -2049138754
+      GUI_1x_sliced_132: 1857389874
+      GUI_1x_sliced_133: -1556855818
+      GUI_1x_sliced_134: 716889152
+      GUI_1x_sliced_135: 1606225561
+      GUI_1x_sliced_136: -685271065
+      GUI_1x_sliced_137: 1432907515
+      GUI_1x_sliced_138: -251234084
+      GUI_1x_sliced_139: 151007350
+      GUI_1x_sliced_14: 1595769774
+      GUI_1x_sliced_140: 13735415
+      GUI_1x_sliced_141: -1355319744
+      GUI_1x_sliced_142: -171346582
+      GUI_1x_sliced_143: 601257844
+      GUI_1x_sliced_144: 2116263649
+      GUI_1x_sliced_145: 1753377014
+      GUI_1x_sliced_146: 807587608
+      GUI_1x_sliced_147: -414509956
+      GUI_1x_sliced_148: -1575375580
+      GUI_1x_sliced_149: -1186258173
+      GUI_1x_sliced_15: -1821679092
+      GUI_1x_sliced_150: 1886735197
+      GUI_1x_sliced_151: 1399108174
+      GUI_1x_sliced_152: 765434162
+      GUI_1x_sliced_153: 1110479333
+      GUI_1x_sliced_154: 1983927800
+      GUI_1x_sliced_155: -314866880
+      GUI_1x_sliced_156: -661698875
+      GUI_1x_sliced_157: -219228115
+      GUI_1x_sliced_158: 70655126
+      GUI_1x_sliced_159: -639085315
+      GUI_1x_sliced_16: -1153700644
+      GUI_1x_sliced_160: 1100821791
+      GUI_1x_sliced_161: 424119276
+      GUI_1x_sliced_162: 1221847459
+      GUI_1x_sliced_163: 142579685
+      GUI_1x_sliced_164: 1272277122
+      GUI_1x_sliced_165: -954453521
+      GUI_1x_sliced_17: -258702500
+      GUI_1x_sliced_18: -97242569
+      GUI_1x_sliced_19: 1810261296
+      GUI_1x_sliced_2: 1319554601
+      GUI_1x_sliced_20: -1827448218
+      GUI_1x_sliced_21: -194869481
+      GUI_1x_sliced_22: -580687811
+      GUI_1x_sliced_23: -1545430750
+      GUI_1x_sliced_24: 1672891241
+      GUI_1x_sliced_25: 964366417
+      GUI_1x_sliced_26: -746340049
+      GUI_1x_sliced_27: -219624183
+      GUI_1x_sliced_28: -1368541994
+      GUI_1x_sliced_29: 1038948379
+      GUI_1x_sliced_3: 447955944
+      GUI_1x_sliced_30: 1130087034
+      GUI_1x_sliced_31: 1260773419
+      GUI_1x_sliced_32: -1831007850
+      GUI_1x_sliced_33: -238314725
+      GUI_1x_sliced_34: -416692407
+      GUI_1x_sliced_35: -1369226046
+      GUI_1x_sliced_36: -1878742628
+      GUI_1x_sliced_37: 1090794996
+      GUI_1x_sliced_38: -608521993
+      GUI_1x_sliced_39: 757727075
+      GUI_1x_sliced_4: -392067245
+      GUI_1x_sliced_40: -1037018760
+      GUI_1x_sliced_41: 1541454570
+      GUI_1x_sliced_42: -1158399655
+      GUI_1x_sliced_43: 539529837
+      GUI_1x_sliced_44: -1830344762
+      GUI_1x_sliced_45: 481059338
+      GUI_1x_sliced_46: -1642448793
+      GUI_1x_sliced_47: -1642999497
+      GUI_1x_sliced_48: -211488878
+      GUI_1x_sliced_49: 1390702504
+      GUI_1x_sliced_5: 1212675964
+      GUI_1x_sliced_50: 1285638414
+      GUI_1x_sliced_51: -78709090
+      GUI_1x_sliced_52: 1984309939
+      GUI_1x_sliced_53: 377057532
+      GUI_1x_sliced_54: 600698525
+      GUI_1x_sliced_55: -1007093661
+      GUI_1x_sliced_56: -954158208
+      GUI_1x_sliced_57: 2086426016
+      GUI_1x_sliced_58: 2118239311
+      GUI_1x_sliced_59: -1897262695
+      GUI_1x_sliced_6: 1650684205
+      GUI_1x_sliced_60: 189422317
+      GUI_1x_sliced_61: 996647828
+      GUI_1x_sliced_62: 850304849
+      GUI_1x_sliced_63: -910834331
+      GUI_1x_sliced_64: -1828002284
+      GUI_1x_sliced_65: -1522690512
+      GUI_1x_sliced_66: 1646061665
+      GUI_1x_sliced_67: -1466006118
+      GUI_1x_sliced_68: -1898688966
+      GUI_1x_sliced_69: 249844163
+      GUI_1x_sliced_7: -1402497648
+      GUI_1x_sliced_70: 466718271
+      GUI_1x_sliced_71: -1959506145
+      GUI_1x_sliced_72: 1325837458
+      GUI_1x_sliced_73: -1558108489
+      GUI_1x_sliced_74: 25663314
+      GUI_1x_sliced_75: 1221535050
+      GUI_1x_sliced_76: -296235037
+      GUI_1x_sliced_77: -178933182
+      GUI_1x_sliced_78: 238371537
+      GUI_1x_sliced_79: 1756653220
+      GUI_1x_sliced_8: 43136806
+      GUI_1x_sliced_80: -1580513440
+      GUI_1x_sliced_81: 348250646
+      GUI_1x_sliced_82: -1740171018
+      GUI_1x_sliced_83: -1677784298
+      GUI_1x_sliced_84: -430488833
+      GUI_1x_sliced_85: 713713194
+      GUI_1x_sliced_86: -846356769
+      GUI_1x_sliced_87: -1009576323
+      GUI_1x_sliced_88: -1711032897
+      GUI_1x_sliced_89: -1670428669
+      GUI_1x_sliced_9: 166477234
+      GUI_1x_sliced_90: 238679916
+      GUI_1x_sliced_91: 266113472
+      GUI_1x_sliced_92: 65014344
+      GUI_1x_sliced_93: -762876143
+      GUI_1x_sliced_94: -1053364897
+      GUI_1x_sliced_95: 1664580953
+      GUI_1x_sliced_96: -836898343
+      GUI_1x_sliced_97: -2136674216
+      GUI_1x_sliced_98: -1049105686
+      GUI_1x_sliced_99: 1297415399
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
