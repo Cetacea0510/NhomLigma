@@ -17,6 +17,10 @@ public class TreasureScript : MonoBehaviour
         {
             treasureOpenButton.SetActive (true);
         }
+        else
+        {
+            treasure.SetActive (false);
+        }
     }
     public void WhenButtonClicked()
     {
