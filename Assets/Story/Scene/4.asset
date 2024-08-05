@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 4
   m_EditorClassIdentifier: 
   sentences:
-  - text: "B\u1ECB \u0111\xE1nh c\u1EAFp b\u1EDFi nh\u1EEFng th\u1EBF l\u1EF1c \u0111en
-      t\u1ED1i"
+  - text: "M\u1ECDi th\u1EE9 ch\xECm v\xE0o h\u1ED7n lo\u1EA1n v\xE0 qu\xE1i v\u1EADt
+      t\u1EEB b\xF3ng t\u1ED1i tr\xE0n lan kh\u1EAFp n\u01A1i."
     speaker: {fileID: 11400000, guid: 5027672d03a22344f97c407cb60aa1ee, type: 2}
-  background: {fileID: 21300000, guid: 0cc8a67aaf39f5444a6e0d19d4320ca5, type: 3}
-  nextScene: {fileID: 0}
+  background: {fileID: 21300000, guid: 91f41f09fff30a34a8e516ceabbe487e, type: 3}
+  nextScene: {fileID: 11400000, guid: 04116d128418448498fa0f68e12e1e02, type: 2}

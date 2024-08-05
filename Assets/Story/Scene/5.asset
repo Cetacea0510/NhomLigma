@@ -13,8 +13,13 @@ MonoBehaviour:
   m_Name: 5
   m_EditorClassIdentifier: 
   sentences:
-  - text: "B\u1ECB \u0111\xE1nh c\u1EAFp b\u1EDFi nh\u1EEFng th\u1EBF l\u1EF1c \u0111en
-      t\u1ED1i"
+  - text: "M\u1ED9t c\xF4 g\xE1i tr\u1EBB t\xEAn l\xE0 Lux \u0111\xE3 \u0111\u01B0\u1EE3c
+      ti\xEAn tri r\u1EB1ng c\xF4 s\u1EBD l\xE0 ng\u01B0\u1EDDi mang l\u1EA1i \xE1nh
+      s\xE1ng cho v\u01B0\u01A1ng qu\u1ED1c."
     speaker: {fileID: 11400000, guid: 5027672d03a22344f97c407cb60aa1ee, type: 2}
-  background: {fileID: 21300000, guid: 0cc8a67aaf39f5444a6e0d19d4320ca5, type: 3}
+  - text: "Lux quy\u1EBFt t\xE2m t\xECm l\u1EA1i vi\xEAn Ng\u1ECDc S\xE1ng v\xE0
+      kh\xF4i ph\u1EE5c l\u1EA1i \xE1nh s\xE1ng cho v\u01B0\u01A1ng qu\u1ED1c c\u1EE7a
+      m\xECnh.  "
+    speaker: {fileID: 11400000, guid: 5027672d03a22344f97c407cb60aa1ee, type: 2}
+  background: {fileID: 21300000, guid: 35edf355ceb60fc49b36be94f88792c3, type: 3}
   nextScene: {fileID: 0}
