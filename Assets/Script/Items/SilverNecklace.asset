@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d78b8748d3de9084185ded13b229ab1c, type: 3}
   m_Name: SilverNecklace
   m_EditorClassIdentifier: 
-  itemType: 0
+  itemType: 3
   actionType: 0
   stackable: 0
+  id: 1
   image: {fileID: -508986110, guid: 0b910ffdaae1721438cf82346de05e1c, type: 3}
