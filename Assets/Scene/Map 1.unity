@@ -419,7 +419,6 @@ PrefabInstance:
     - target: {fileID: -2253911629886400664, guid: dd8f43ff710d10243a36ae5b4a1f340b, type: 3}
       propertyPath: m_TagString
       value: Player
-
       objectReference: {fileID: 0}
     - target: {fileID: 2493535205579544135, guid: a87e537223ab5b1438a0e670f1639f93, type: 3}
       propertyPath: m_AnchorMax.x
@@ -527,7 +526,6 @@ MonoBehaviour:
   bulletPrefabs: {fileID: 2804893457202878600, guid: cf20dc0b2e386484eb829c5b2f8c2174, type: 3}
   firePoint: {fileID: 1984098401}
   fireRate: 0.5
-
 --- !u!1001 &544434334
 PrefabInstance:
   m_ObjectHideFlags: 0
