@@ -4,20 +4,32 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.Rendering;
 using UnityEngine.UI;
+using TMPro;
 
 public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
     [Header("UI")]
     public Image image;
+    public TextMeshProUGUI countText;
 
 
     [HideInInspector] public Item item;
+    [HideInInspector] public int count = 1;
     [HideInInspector] public Transform parentAfterDrag;
 
     public void InitialiseItem(Item newItem)
     {
         item = newItem;
         image.sprite = newItem.image;
+        //count = Random.Range(1,6); (only checking if the count actually worked)...and it did! :D
+        RefreshCount();
+    }
+
+    public void RefreshCount()
+    {
+        countText.text = count.ToString();
+        bool textActive = count > 1;
+        countText.gameObject.SetActive(textActive);
     }
     public void OnBeginDrag(PointerEventData eventData)
     {

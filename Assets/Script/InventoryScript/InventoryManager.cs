@@ -4,10 +4,25 @@ using UnityEngine;
 
 public class InventoryManager : MonoBehaviour
 {
+    public int MaxStackedItems = 50; 
     public InventorySlot[] Slots;
     public GameObject inventoryItemPrefab;
     public void AddItem(Item item)
     {
+        //check if any slot of the same item can be stackable and has count lower than max
+        for (int i = 0; i < Slots.Length; i++)
+        {
+            InventorySlot slot = Slots[i];
+            DraggableItem itemSlot = slot.GetComponentInChildren<DraggableItem>();
+            if (itemSlot != null && itemSlot.item == item && itemSlot.count < MaxStackedItems && itemSlot.item.stackable == true)
+            {
+                itemSlot.count++;
+                itemSlot.RefreshCount();
+                return;
+            }
+        }
+
+        //find empty slots for items
         for (int i = 0; i < Slots.Length; i++)
         {
             InventorySlot slot = Slots[i];

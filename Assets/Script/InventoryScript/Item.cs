@@ -15,9 +15,13 @@ public class Item : ScriptableObject
 
     [Header("Both UI")]
     public Sprite image;
+
     public enum ItemType
     {
-        Equipment,
+        Weapon,
+        Bracelet,
+        Helmet,
+        Necklace,
         Consumable
     }
 
