@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d78b8748d3de9084185ded13b229ab1c, type: 3}
   m_Name: HealthPotion
   m_EditorClassIdentifier: 
-  itemType: 1
+  itemType: 4
   actionType: 1
   stackable: 1
+  id: 0
   image: {fileID: 534642212, guid: 64a4b8b1703bb1c419cb044518c5c97e, type: 3}

@@ -15,4 +15,5 @@ MonoBehaviour:
   itemType: 0
   actionType: 0
   stackable: 0
+  id: 4
   image: {fileID: 185276096, guid: 0b910ffdaae1721438cf82346de05e1c, type: 3}
