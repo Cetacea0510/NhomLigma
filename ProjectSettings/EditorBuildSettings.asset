@@ -9,9 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Ngoc.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scene/Ngoc.unity
-    guid: 9639bc392530bf2409de9d66b7a4cbcd
-  - enabled: 1
     path: Assets/Scene/Map 1.unity
     guid: 8f847f714007fd949bef3b88be84e6e5
   - enabled: 1

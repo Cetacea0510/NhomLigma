@@ -16,4 +16,4 @@ MonoBehaviour:
   - text: "...khi vi\xEAn ng\u1ECDc b\u1EA3o h\u1ED9 c\u1EE7a n\xF3, Ng\u1ECDc S\xE1ng."
     speaker: {fileID: 11400000, guid: 5027672d03a22344f97c407cb60aa1ee, type: 2}
   background: {fileID: 21300000, guid: 0cc8a67aaf39f5444a6e0d19d4320ca5, type: 3}
-  nextScene: {fileID: 11400000, guid: bd72055941321cd47a4a0aa38fe7ca18, type: 2}
+  nextScene: {fileID: 11400000, guid: 28898b9056bd28440a516c1a47a80cba, type: 2}
