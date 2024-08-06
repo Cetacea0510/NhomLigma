@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEditor.Playables;
 using UnityEngine;
@@ -57,12 +57,30 @@ public class PlayerMovement : MonoBehaviour
     }
     void Die()
     {
-        //Debug.Log("Enemy died!");
+        /*//Debug.Log("Enemy died!");
         //die animation
-        //animator.SetBool("isDead", true);
+        anim.SetBool("isDead", true);
         //disable the enemy
         this.enabled = false;
         GetComponent<Collider2D>().enabled = false;
-        Destroy(gameObject, 0.2f);
+        Destroy(gameObject, 1f);*/
+
+        // Kích hoạt hoạt ảnh chết
+        anim.SetBool("isDead", true);
+
+        // Vô hiệu hóa script của player
+        this.enabled = false;
+
+        // Vô hiệu hóa collider để không có va chạm
+        GetComponent<Collider2D>().enabled = false;
+
+        // Vô hiệu hóa Rigidbody2D để ngăn trượt
+        Rigidbody2D rb = GetComponent<Rigidbody2D>();
+        if (rb != null)
+        {
+            rb.velocity = Vector2.zero; // Đặt vận tốc về 0
+            rb.isKinematic = true; // Đặt chế độ kinematic để ngăn tương tác vật lý
+        }
+        Destroy(gameObject, 1.4f);
     }
 }

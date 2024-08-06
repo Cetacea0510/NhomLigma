@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 4340961882121694436}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.75, y: -0.01, z: 0}
+  m_LocalPosition: {x: 1.38, y: -0.01, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -129,7 +129,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7559757963848423618}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -180,8 +180,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0029304028, y: 0}
-  m_Size: {x: 1.1741366, y: 1.677422}
+  m_Offset: {x: 0.14297271, y: -0.20742851}
+  m_Size: {x: 0.6886554, y: 1.262565}
   m_Direction: 0
 --- !u!114 &41157826868691238
 MonoBehaviour:
@@ -195,14 +195,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 578d083a18be8fa428cdab71d0625298, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 8862826377437191107, guid: 38fc5edbc8c593941a6b2852d44dd6df, type: 3}
   anim: {fileID: 7425972465258140202}
   _health: 4
   attackPoint: {fileID: 184803893832963603}
   playerLayers:
     serializedVersion: 2
-    m_Bits: 0
-  attackRange: 0.95
+    m_Bits: 8
+  attackRange: 0.98
   attackDamage: 10
 --- !u!58 &4766267910644277286
 CircleCollider2D:
@@ -236,9 +236,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 1.2261598, y: -0.0134027}
+  m_Offset: {x: 1.1849831, y: 0.018715858}
   serializedVersion: 2
-  m_Radius: 3.2855527
+  m_Radius: 3.1404428
 --- !u!95 &7425972465258140202
 Animator:
   serializedVersion: 5

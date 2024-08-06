@@ -79,7 +79,7 @@ public class Slime_Controller : MonoBehaviour
         }
     }
 
-    void OnHit(float damage)
+    public void TakeDamage(float damage)
     {
         Health -= damage;
     }
@@ -101,13 +101,7 @@ public class Slime_Controller : MonoBehaviour
             ChangeState(EnemyState.Chasing);
         }
     }
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.tag == "Bullet")
-        {
-            OnHit(1);
-        }
-    }
+    
     void Attack()
     {
         //play an animation 

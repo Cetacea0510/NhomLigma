@@ -99,10 +99,7 @@ public class Boss_Controllers : MonoBehaviour
             }
             ChangeState(EnemyState.Chasing);
         }
-        //if (collision.gameObject.tag == "Bullet")
-        //{
-        //    OnHit(1);
-        //}
+       
     }
     
     void Attack()

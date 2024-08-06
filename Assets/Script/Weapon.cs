@@ -5,18 +5,13 @@ using UnityEngine;
 public class Weapon : MonoBehaviour
 {
     Boss_Controllers Boss;
-    //public GameObject arrow;
-    //public Transform firePos;
-    //public float TimeAtwFire = 0.2f;
-    //public float arrowForce = 10;
-    //private float timeAtwFire;
+  
     //=============
     public GameObject bulletPrefabs;
     public Transform firePoint;
     public float fireRate = 0.5f;
     private float nextFireTime;
 
-    public LayerMask enemyLayers;
     void Update()
     {
         RotateBow();

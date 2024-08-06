@@ -29,7 +29,6 @@ public class Enemy_Controllers : MonoBehaviour
             if (value <= 0)
             {
                 anim.SetBool("isAlive", false);
-                ScoreManager.instance.AddPoint();
                 Destroy(gameObject, 1);
             }
         }
@@ -39,7 +38,7 @@ public class Enemy_Controllers : MonoBehaviour
         }
     }
 
-    public float _health = 3;
+    public float _health = 5;
 
     public Transform attackPoint;
     public LayerMask playerLayers;
@@ -80,10 +79,11 @@ public class Enemy_Controllers : MonoBehaviour
         }
     }
 
-    void OnHit(float damage)
+    public void TakeDamage(float damage)
     {
         Health -= damage;
     }
+
 
     void Flip()
     {
@@ -102,13 +102,7 @@ public class Enemy_Controllers : MonoBehaviour
             ChangeState(EnemyState.Chasing);
         }
     }
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.tag == "Finish")
-        {
-            OnHit(1);
-        }
-    }
+    
     void Attack()
     {
         //play an animation 
