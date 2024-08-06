@@ -103,7 +103,7 @@ public class Slime_Controller : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Finish")
+        if (collision.gameObject.tag == "Bullet")
         {
             OnHit(1);
         }

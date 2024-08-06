@@ -48,7 +48,7 @@ GameObject:
   - component: {fileID: 7425972465258140202}
   m_Layer: 0
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -201,7 +201,7 @@ MonoBehaviour:
   attackPoint: {fileID: 184803893832963603}
   playerLayers:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   attackRange: 0.95
   attackDamage: 10
 --- !u!58 &4766267910644277286

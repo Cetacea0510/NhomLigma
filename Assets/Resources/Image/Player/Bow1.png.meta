@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a919bbd85c2ca9044bc5ce9d3d2878b0
+guid: cef36f904ce70a04d984703d1653bee8
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 25
+  spritePixelsToUnits: 20
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -93,30 +93,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bow_0
+      name: Bow1_0
       rect:
         serializedVersion: 2
-        x: 12
-        y: 2
-        width: 24
-        height: 18
+        x: 29
+        y: 252
+        width: 9
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +111,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5236ae14bfaa054bbb2b7f4bb307afc
-      internalID: 2022914129
+      spriteID: 66442678a3f52c94a957f5a6d511100c
+      internalID: 653942619
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bow_1
+      name: Bow1_1
       rect:
         serializedVersion: 2
-        x: 60
-        y: 4
-        width: 24
-        height: 18
+        x: 27
+        y: 204
+        width: 19
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +132,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3195c54fd57025d4bbd60672dc2da8e6
-      internalID: 461382280
+      spriteID: 76c8c9c79f1777b48aa751503de2ac84
+      internalID: -445706343
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bow_2
+      name: Bow1_2
       rect:
         serializedVersion: 2
-        x: 109
-        y: 5
-        width: 22
-        height: 18
+        x: 24
+        y: 157
+        width: 18
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +153,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e4dd7cd7dad3a040bb9cebf0e8d2f78
-      internalID: -1156841871
+      spriteID: 2b908a5b4129fea4dbf29db6bf3a3479
+      internalID: -782551420
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bow_3
+      name: Bow1_3
       rect:
         serializedVersion: 2
-        x: 157
-        y: 6
-        width: 22
-        height: 18
+        x: 25
+        y: 109
+        width: 18
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +174,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0e80ed82f77bde42a00dbd7ad569c0d
-      internalID: -1294018300
+      spriteID: 518afe7186f37b74e94ac02c426a315c
+      internalID: -2100711205
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bow_4
+      name: Bow1_4
       rect:
         serializedVersion: 2
-        x: 204
-        y: 2
-        width: 24
-        height: 19
+        x: 26
+        y: 60
+        width: 18
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,20 +195,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49f6788ed2129ba439771933ec4f5ebc
-      internalID: -380682496
+      spriteID: 81c97a5f7f7a46f418fed0e91db654d3
+      internalID: -1961070005
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bow_5
+      name: Bow1_5
       rect:
         serializedVersion: 2
-        x: 252
-        y: 10
-        width: 24
-        height: 9
+        x: 28
+        y: 12
+        width: 18
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,8 +216,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2bf967353aa9bb488aa32ea1d232ec4
-      internalID: -1192281966
+      spriteID: 02082a18b0a69b1438bd49e0f35b74ad
+      internalID: -1061432189
       vertices: []
       indices: 
       edges: []
@@ -246,12 +233,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Bow_0: 2022914129
-      Bow_1: 461382280
-      Bow_2: -1156841871
-      Bow_3: -1294018300
-      Bow_4: -380682496
-      Bow_5: -1192281966
+      Bow1_0: 653942619
+      Bow1_1: -445706343
+      Bow1_2: -782551420
+      Bow1_3: -2100711205
+      Bow1_4: -1961070005
+      Bow1_5: -1061432189
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
