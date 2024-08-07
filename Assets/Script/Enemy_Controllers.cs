@@ -88,7 +88,7 @@ public class Enemy_Controllers : MonoBehaviour
     {
         Item.ItemType itemType = draggableItem.item.itemType;
         int bonusdmg = draggableItem.item.bonusDamage;
-        if (draggableItem.item.itemName == "Fire Bow" && draggableItem.item.equipState == true && draggableItem.parentAfterDrag.transform == true)
+        if (draggableItem.item.itemName == "Fire Bow" && draggableItem.item.equipState == true)
         {
             Health -= (damage + bonusdmg);
         }
