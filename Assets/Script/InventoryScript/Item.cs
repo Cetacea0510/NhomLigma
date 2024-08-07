@@ -14,10 +14,15 @@ public class Item : ScriptableObject
     public string itemName;
     public int bonusDamage;
     public int bonusHealth;
+    [HideInInspector] public WeapontSlot weapontSlot;
 
     [Header("Only UI")]
     public bool stackable = true;
     public bool equipState;
+    public void Equippable()
+    {
+
+    }
     //public bool isWeapon = true;
     //public bool isHelmet = true;
     //public bool isNecklace = true;
