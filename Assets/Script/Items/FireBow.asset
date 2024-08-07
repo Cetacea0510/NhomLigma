@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemType: 0
   actionType: 0
+  itemName: Fire bow
   stackable: 0
-  id: 4
   image: {fileID: 554700866, guid: 0b910ffdaae1721438cf82346de05e1c, type: 3}

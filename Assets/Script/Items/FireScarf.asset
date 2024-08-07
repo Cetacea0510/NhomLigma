@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemType: 2
   actionType: 0
+  itemName: Fire Hair Scarf
   stackable: 0
-  id: 2
   image: {fileID: 926076171, guid: 0b910ffdaae1721438cf82346de05e1c, type: 3}

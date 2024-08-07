@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemType: 3
   actionType: 0
+  itemName: Diamond Necklace
   stackable: 0
-  id: 1
   image: {fileID: 1952737976, guid: 0b910ffdaae1721438cf82346de05e1c, type: 3}
