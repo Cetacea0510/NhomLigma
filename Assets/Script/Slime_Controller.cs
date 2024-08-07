@@ -112,7 +112,7 @@ public class Slime_Controller : MonoBehaviour
         //damage them 
         foreach (Collider2D player in hitPlayer)
         {
-            player.GetComponent<demoplayerWenemy>().TakeDamage(attackDamage);
+            player.GetComponent<PlayerMovement>().TakeDamage(attackDamage);
         }
     }
     void OnDrawGizmosSelected()

@@ -127,7 +127,7 @@ public class Enemy_Controllers : MonoBehaviour
         //damage them 
         foreach (Collider2D player in hitPlayer)
         {
-            player.GetComponent<demoplayerWenemy>().TakeDamage(attackDamage);
+            player.GetComponent<PlayerMovement>().TakeDamage(attackDamage);
         }
     }
     void OnDrawGizmosSelected()
