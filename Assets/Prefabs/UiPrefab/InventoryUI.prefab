@@ -251,7 +251,7 @@ GameObject:
   - component: {fileID: 7798494045837609708}
   - component: {fileID: 9091796699326428215}
   - component: {fileID: 6627323856942181206}
-  - component: {fileID: 5355640118344274238}
+  - component: {fileID: 8517281663335815170}
   m_Layer: 5
   m_Name: NecklaceSlotIcon
   m_TagString: Untagged
@@ -316,7 +316,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &5355640118344274238
+--- !u!114 &8517281663335815170
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -325,7 +325,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2732634018922047480}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98559d55c838ad34da9f09e8193accc6, type: 3}
+  m_Script: {fileID: 11500000, guid: c26dd81beab009541bd90f518589f3a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &4634642698365928056
@@ -872,7 +872,7 @@ GameObject:
   - component: {fileID: 3433780360856995809}
   - component: {fileID: 6724415211321876594}
   - component: {fileID: 5713890619063623737}
-  - component: {fileID: 5213662634666479234}
+  - component: {fileID: 512766208122837627}
   m_Layer: 5
   m_Name: NecklaceSlotIcon
   m_TagString: Untagged
@@ -937,7 +937,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &5213662634666479234
+--- !u!114 &512766208122837627
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -946,7 +946,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7855580309503805465}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98559d55c838ad34da9f09e8193accc6, type: 3}
+  m_Script: {fileID: 11500000, guid: 93cb763b1b5e2a5449b90b837c8bf4c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &9028772268380117135
@@ -960,7 +960,7 @@ GameObject:
   - component: {fileID: 849870149895777829}
   - component: {fileID: 2147780431139021946}
   - component: {fileID: 7226802708105648044}
-  - component: {fileID: 8665100079408371098}
+  - component: {fileID: 6263647632436597365}
   m_Layer: 5
   m_Name: HelmetSlotIcon
   m_TagString: Untagged
@@ -1025,7 +1025,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &8665100079408371098
+--- !u!114 &6263647632436597365
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1034,7 +1034,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 9028772268380117135}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98559d55c838ad34da9f09e8193accc6, type: 3}
+  m_Script: {fileID: 11500000, guid: 23785a7ed00df5544bf29b9937f08417, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &328566108794949932

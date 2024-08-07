@@ -1,10 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.XR;
+using static Item;
 
 public class Enemy_Controllers : MonoBehaviour
 {
+    List<WeapontSlot> equippedWeapon = new List<WeapontSlot>();
+    public DraggableItem draggableItem;
+    public WeapontSlot weaponSlot;
     private float speed = 2f;
     private int facingDirection = 1;
     private EnemyState enemyState;
@@ -81,7 +86,16 @@ public class Enemy_Controllers : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
-        Health -= damage;
+        Item.ItemType itemType = draggableItem.item.itemType;
+        int bonusdmg = draggableItem.item.bonusDamage;
+        if (draggableItem.item.itemName == "Fire Bow" && draggableItem.item.equipState == true && draggableItem.parentAfterDrag.transform == true)
+        {
+            Health -= (damage + bonusdmg);
+        }
+        else
+        {
+            Health -= (damage);
+        }
     }
 
 
