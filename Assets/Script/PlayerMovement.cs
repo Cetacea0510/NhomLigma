@@ -19,7 +19,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        anim = GetComponent<Animator>();
+        anim = GetComponent<Animator>(); 
     }
 
     // Update is called once per frame
@@ -27,7 +27,7 @@ public class PlayerMovement : MonoBehaviour
     {
         rb.velocity = moveInput * moveSpeed;
     }
-
+    
     public void Move(InputAction.CallbackContext context)
     {
         anim.SetBool("isWalking", true);
