@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEditor.Playables;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -10,6 +11,10 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 moveInput;
     private Animator anim;
+
+    public Image hpImage;
+    public Image hpDelayImage;
+    public float hurtSpeed = 0.5f;
 
     //===========
     public float maxHealth = 100;
@@ -20,12 +25,24 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        cunrrentHealth = maxHealth;
+
     }
 
     // Update is called once per frame
     void Update()
     {
         rb.velocity = moveInput * moveSpeed;
+
+        hpImage.fillAmount = cunrrentHealth / maxHealth;
+        if (hpDelayImage.fillAmount > hpImage.fillAmount)
+        {
+            hpDelayImage.fillAmount -= hurtSpeed;
+        }
+        else
+        {
+            hpDelayImage.fillAmount = hpImage.fillAmount;
+        }
     }
 
     public void Move(InputAction.CallbackContext context)

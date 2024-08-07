@@ -7,9 +7,6 @@ using static Item;
 
 public class Enemy_Controllers : MonoBehaviour
 {
-    List<WeapontSlot> equippedWeapon = new List<WeapontSlot>();
-    public DraggableItem draggableItem;
-    public WeapontSlot weaponSlot;
     private float speed = 2f;
     private int facingDirection = 1;
     private EnemyState enemyState;
@@ -86,16 +83,16 @@ public class Enemy_Controllers : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
-        Item.ItemType itemType = draggableItem.item.itemType;
-        int bonusdmg = draggableItem.item.bonusDamage;
-        if (draggableItem.item.itemName == "Fire Bow" && draggableItem.item.equipState == true)
-        {
-            Health -= (damage + bonusdmg);
-        }
-        else
-        {
+        //Item.ItemType itemType = draggableItem.item.itemType;
+        //int bonusdmg = draggableItem.item.bonusDamage;
+        //if (draggableItem.item.itemName == "Fire Bow" && draggableItem.item.equipState == true)
+        //{
+        //    Health -= (damage + bonusdmg);
+        //}
+        //else
+        //{
             Health -= (damage);
-        }
+        //}
     }
 
 

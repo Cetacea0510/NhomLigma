@@ -16,7 +16,7 @@ public class Weapon : MonoBehaviour
     {
         RotateBow();
 
-        if (Input.GetMouseButton(0) && Time.time >= nextFireTime)
+        if (Input.GetMouseButton(1) && Time.time >= nextFireTime)
         {
             FireArrow();
             nextFireTime = Time.time + fireRate;

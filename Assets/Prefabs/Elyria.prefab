@@ -90,7 +90,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -277,6 +277,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
+  hpImage: {fileID: 0}
+  hpDelayImage: {fileID: 0}
+  hurtSpeed: 0.5
   maxHealth: 100
   cunrrentHealth: 100
 --- !u!70 &3282829354561383913
@@ -341,7 +344,7 @@ Transform:
   m_GameObject: {fileID: 5419685737224722986}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.07800001, y: 1.52, z: 0}
+  m_LocalPosition: {x: 0.07800001, y: 1.13, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -424,12 +427,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 8862826377437191107}
     m_Modifications:
     - target: {fileID: 2990365965290512980, guid: 99ee641ba102011469104c66625dca31, type: 3}
+      propertyPath: m_Color.b
+      value: 0.9169811
+      objectReference: {fileID: 0}
+    - target: {fileID: 2990365965290512980, guid: 99ee641ba102011469104c66625dca31, type: 3}
       propertyPath: m_Color.g
-      value: 0.95430183
+      value: 0.49812675
       objectReference: {fileID: 0}
     - target: {fileID: 2990365965290512980, guid: 99ee641ba102011469104c66625dca31, type: 3}
       propertyPath: m_Color.r
-      value: 0.5691823
+      value: 0.3650622
+      objectReference: {fileID: 0}
+    - target: {fileID: 2990365965290512980, guid: 99ee641ba102011469104c66625dca31, type: 3}
+      propertyPath: m_FalloffIntensity
+      value: 0.379
       objectReference: {fileID: 0}
     - target: {fileID: 4494865408003481767, guid: 99ee641ba102011469104c66625dca31, type: 3}
       propertyPath: m_LocalScale.x

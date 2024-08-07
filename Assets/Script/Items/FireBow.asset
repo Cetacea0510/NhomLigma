@@ -15,5 +15,9 @@ MonoBehaviour:
   itemType: 0
   actionType: 0
   itemName: Fire bow
+  bonusDamage: 20
+  bonusHealth: 0
+  weapontSlot: {fileID: 0}
   stackable: 0
+  equipState: 0
   image: {fileID: 554700866, guid: 0b910ffdaae1721438cf82346de05e1c, type: 3}
