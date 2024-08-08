@@ -47,7 +47,7 @@ GameObject:
   - component: {fileID: 8197475653203779469}
   - component: {fileID: 3282829354561383913}
   m_Layer: 3
-  m_Name: Elyria
+  m_Name: Lux
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -130,12 +130,12 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4556772997521980398}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0
+  m_LinearDrag: 20
   m_AngularDrag: 0.05
   m_GravityScale: 0
   m_Material: {fileID: 0}
@@ -311,8 +311,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.13444388}
-  m_Size: {x: 1.0622249, y: 1.3311124}
+  m_Offset: {x: 0, y: -0.26888764}
+  m_Size: {x: 1.0622249, y: 1.0622249}
   m_Direction: 0
 --- !u!1 &5419685737224722986
 GameObject:
@@ -425,11 +425,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2990365965290512980, guid: 99ee641ba102011469104c66625dca31, type: 3}
       propertyPath: m_Color.g
-      value: 0.95430183
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2990365965290512980, guid: 99ee641ba102011469104c66625dca31, type: 3}
       propertyPath: m_Color.r
-      value: 0.5691823
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2990365965290512980, guid: 99ee641ba102011469104c66625dca31, type: 3}
+      propertyPath: m_FalloffIntensity
+      value: 0.379
       objectReference: {fileID: 0}
     - target: {fileID: 4494865408003481767, guid: 99ee641ba102011469104c66625dca31, type: 3}
       propertyPath: m_LocalScale.x
