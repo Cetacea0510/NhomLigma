@@ -6,7 +6,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField] private float moveSpeed = 5f;
+    /*[SerializeField] private float moveSpeed = 5f;
     private Rigidbody2D rb;
     private Vector2 moveInput;
     private Animator anim;
@@ -57,14 +57,6 @@ public class PlayerMovement : MonoBehaviour
     }
     void Die()
     {
-        /*//Debug.Log("Enemy died!");
-        //die animation
-        anim.SetBool("isDead", true);
-        //disable the enemy
-        this.enabled = false;
-        GetComponent<Collider2D>().enabled = false;
-        Destroy(gameObject, 1f);*/
-
         // Kích hoạt hoạt ảnh chết
         anim.SetBool("isDead", true);
 
@@ -80,6 +72,68 @@ public class PlayerMovement : MonoBehaviour
         {
             rb.velocity = Vector2.zero; // Đặt vận tốc về 0
             rb.isKinematic = true; // Đặt chế độ kinematic để ngăn tương tác vật lý
+        }
+        Destroy(gameObject, 1.4f);
+    }*/
+
+    [SerializeField] private float moveSpeed = 5f;
+    private Rigidbody2D rb;
+    private Vector2 moveInput;
+    private Animator anim;
+
+    public float maxHealth = 100;
+    public float currentHealth;
+
+    void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
+    }
+
+    void Update()
+    {
+        rb.velocity = moveInput * moveSpeed;
+    }
+
+    public void Move(InputAction.CallbackContext context)
+    {
+        moveInput = context.ReadValue<Vector2>();
+        anim.SetFloat("InputX", moveInput.x);
+        anim.SetFloat("InputY", moveInput.y);
+
+        if (context.canceled)
+        {
+            anim.SetBool("isWalking", false);
+            anim.SetFloat("LastInputX", moveInput.x);
+            anim.SetFloat("LastInputY", moveInput.y);
+        }
+        else
+        {
+            anim.SetBool("isWalking", true);
+        }
+    }
+
+    public void TakeDamage(int damage)
+    {
+        currentHealth -= damage;
+
+        if (currentHealth <= 0)
+        {
+            Die();
+        }
+    }
+
+    void Die()
+    {
+        anim.SetBool("isDead", true);
+        this.enabled = false;
+        GetComponent<Collider2D>().enabled = false;
+
+        Rigidbody2D rb = GetComponent<Rigidbody2D>();
+        if (rb != null)
+        {
+            rb.velocity = Vector2.zero;
+            rb.isKinematic = true;
         }
         Destroy(gameObject, 1.4f);
     }
