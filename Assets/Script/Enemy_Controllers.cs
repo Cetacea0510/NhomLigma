@@ -1,10 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.XR;
+using static Item;
 
 public class Enemy_Controllers : MonoBehaviour
 {
+    List<WeapontSlot> equippedWeapon = new List<WeapontSlot>();
+    public DraggableItem draggableItem;
+    public WeapontSlot weaponSlot;
     private float speed = 2f;
     private int facingDirection = 1;
     private EnemyState enemyState;
@@ -29,7 +34,6 @@ public class Enemy_Controllers : MonoBehaviour
             if (value <= 0)
             {
                 anim.SetBool("isAlive", false);
-                ScoreManager.instance.AddPoint();
                 Destroy(gameObject, 1);
             }
         }
@@ -39,7 +43,7 @@ public class Enemy_Controllers : MonoBehaviour
         }
     }
 
-    public float _health = 3;
+    public float _health = 5;
 
     public Transform attackPoint;
     public LayerMask playerLayers;
@@ -80,10 +84,20 @@ public class Enemy_Controllers : MonoBehaviour
         }
     }
 
-    void OnHit(float damage)
+    public void TakeDamage(float damage)
     {
-        Health -= damage;
+        Item.ItemType itemType = draggableItem.item.itemType;
+        int bonusdmg = draggableItem.item.bonusDamage;
+        if (draggableItem.item.itemName == "Fire Bow" && draggableItem.item.equipState == true)
+        {
+            Health -= (damage + bonusdmg);
+        }
+        else
+        {
+            Health -= (damage);
+        }
     }
+
 
     void Flip()
     {
@@ -102,13 +116,7 @@ public class Enemy_Controllers : MonoBehaviour
             ChangeState(EnemyState.Chasing);
         }
     }
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.tag == "Finish")
-        {
-            OnHit(1);
-        }
-    }
+    
     void Attack()
     {
         //play an animation 
@@ -119,7 +127,7 @@ public class Enemy_Controllers : MonoBehaviour
         //damage them 
         foreach (Collider2D player in hitPlayer)
         {
-            player.GetComponent<demoplayerWenemy>().TakeDamage(attackDamage);
+            player.GetComponent<PlayerMovement>().TakeDamage(attackDamage);
         }
     }
     void OnDrawGizmosSelected()

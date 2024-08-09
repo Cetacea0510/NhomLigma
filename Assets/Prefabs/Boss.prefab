@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 2472284826154670395}
   m_Layer: 0
   m_Name: Boss
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -78,7 +78,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 11
   m_Sprite: {fileID: -1618194869, guid: 30b95373f75d238488e6e337cead368e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -143,8 +143,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.06310618, y: 0}
-  m_Size: {x: 1.0844686, y: 1.85}
+  m_Offset: {x: -0.073509336, y: -0.27046466}
+  m_Size: {x: 0.8556149, y: 1.3090706}
   m_Direction: 0
 --- !u!58 &8854644428863299175
 CircleCollider2D:
@@ -178,9 +178,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.13136673, y: -1.3184605}
+  m_Offset: {x: -0.13136673, y: -0.6563721}
   serializedVersion: 2
-  m_Radius: 5.338436
+  m_Radius: 5.81328
 --- !u!50 &2024212061980333890
 Rigidbody2D:
   serializedVersion: 4
@@ -189,7 +189,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2055478133798507394}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -220,14 +220,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63e75d22fce79bb4aabb5d7544361dcd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 8862826377437191107, guid: 38fc5edbc8c593941a6b2852d44dd6df, type: 3}
   anim: {fileID: 6568150630837700268}
-  _health: 10
+  _health: 15
   attackPoint: {fileID: 6418918089303693734}
   playerLayers:
     serializedVersion: 2
     m_Bits: 8
-  attackDamage: 25
+  attackDamage: 13
 --- !u!1 &8766343078698846949
 GameObject:
   m_ObjectHideFlags: 0

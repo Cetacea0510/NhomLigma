@@ -79,7 +79,7 @@ public class Slime_Controller : MonoBehaviour
         }
     }
 
-    void OnHit(float damage)
+    public void TakeDamage(float damage)
     {
         Health -= damage;
     }
@@ -101,13 +101,7 @@ public class Slime_Controller : MonoBehaviour
             ChangeState(EnemyState.Chasing);
         }
     }
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.tag == "Finish")
-        {
-            OnHit(1);
-        }
-    }
+    
     void Attack()
     {
         //play an animation 
@@ -118,7 +112,7 @@ public class Slime_Controller : MonoBehaviour
         //damage them 
         foreach (Collider2D player in hitPlayer)
         {
-            player.GetComponent<demoplayerWenemy>().TakeDamage(attackDamage);
+            player.GetComponent<PlayerMovement>().TakeDamage(attackDamage);
         }
     }
     void OnDrawGizmosSelected()

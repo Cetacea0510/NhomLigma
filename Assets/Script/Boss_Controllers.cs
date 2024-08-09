@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -37,7 +37,7 @@ public class Boss_Controllers : MonoBehaviour
         }
     }
 
-    public float _health = 10;
+    public float _health = 15;
 
     public Transform attackPoint;
     public LayerMask playerLayers;
@@ -78,11 +78,11 @@ public class Boss_Controllers : MonoBehaviour
         }
     }
 
-    void OnHit(float damage)
+    public void TakeDamage(float damage)
     {
         Health -= damage;
     }
-
+   
     void Flip()
     {
         facingDirection *= -1;
@@ -99,14 +99,9 @@ public class Boss_Controllers : MonoBehaviour
             }
             ChangeState(EnemyState.Chasing);
         }
+       
     }
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.tag == "Finish")
-        {
-            OnHit(1);
-        }
-    }
+    
     void Attack()
     {
         //play an animation 
@@ -117,7 +112,7 @@ public class Boss_Controllers : MonoBehaviour
         //damage them 
         foreach (Collider2D player in hitPlayer)
         {
-            player.GetComponent<demoplayerWenemy>().TakeDamage(attackDamage);
+            player.GetComponent<PlayerMovement>().TakeDamage(attackDamage);
         }
     }
     void OnDrawGizmosSelected()
@@ -150,4 +145,7 @@ public class Boss_Controllers : MonoBehaviour
         else if (enemyState == EnemyState.Chasing)
             anim.SetBool("isChasing", true);
     }
+
+    //===============
+     
 }
