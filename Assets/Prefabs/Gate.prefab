@@ -165,4 +165,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37dc09f23b4d2c34fa53f57326eefad0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneBuildIndex: 0
+  sceneToLoad: Map 2
+  spawnPosition: {x: 0, y: 0}
