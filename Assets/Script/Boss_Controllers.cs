@@ -13,29 +13,6 @@ public class Boss_Controllers : MonoBehaviour
     public Animator anim;
 
     bool isAlive = true;
-    public float Health
-    {
-        set
-        {
-            if (value < _health)
-            {
-                anim.SetTrigger("hit");
-            }
-
-            _health = value;
-
-
-            if (value <= 0)
-            {
-                anim.SetBool("isAlive", false);
-                Destroy(gameObject, 1);
-            }
-        }
-        get
-        {
-            return _health;
-        }
-    }
 
     public float _health = 15;
 
@@ -60,29 +37,37 @@ public class Boss_Controllers : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (enemyState == EnemyState.Chasing)
+        if (enemyState == EnemyState.Chasing && player != null)
         {
+            Vector2 direction = (player.position - transform.position).normalized;
+            rb.velocity = direction * speed;
+
             if (player.position.x > transform.position.x && facingDirection == -1 ||
-                 player.position.x < transform.position.x && facingDirection == 1)
+                player.position.x < transform.position.x && facingDirection == 1)
             {
                 Flip();
             }
-            Vector2 direction = (player.position - transform.position).normalized;
-            rb.velocity = direction * speed;
 
             if (Time.time >= nextAttackTime)
             {
                 Attack();
-                nextAttackTime = Time.time + 3.7f / attackRate;
+                nextAttackTime = Time.time + 3.14f / attackRate;
             }
         }
     }
 
     public void TakeDamage(float damage)
     {
-        Health -= damage;
+        _health -= damage;
+        anim.SetTrigger("hit");
+
+        if (_health <= 0)
+        {
+            anim.SetBool("isAlive", false);
+            Destroy(gameObject, 1);
+        }
     }
-   
+
     void Flip()
     {
         facingDirection *= -1;
@@ -91,15 +76,13 @@ public class Boss_Controllers : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Player")
+        
+        if (collision.gameObject.CompareTag("Player"))
         {
-            if (player == null)
-            {
-                player = collision.transform;
-            }
+            player = collision.transform;
             ChangeState(EnemyState.Chasing);
         }
-       
+
     }
     
     void Attack()
@@ -114,6 +97,8 @@ public class Boss_Controllers : MonoBehaviour
         {
             player.GetComponent<PlayerMovement>().TakeDamage(attackDamage);
         }
+
+
     }
     void OnDrawGizmosSelected()
     {
@@ -146,6 +131,4 @@ public class Boss_Controllers : MonoBehaviour
             anim.SetBool("isChasing", true);
     }
 
-    //===============
-     
 }
