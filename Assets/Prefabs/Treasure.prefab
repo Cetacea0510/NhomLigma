@@ -576,5 +576,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2ddcf703854fcd4f917ae8796a9215b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Health: 10000
   treasure: {fileID: 8295380426312501092}
   treasureOpenButton: {fileID: 6453412067965868941}

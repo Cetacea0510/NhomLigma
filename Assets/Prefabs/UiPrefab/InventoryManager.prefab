@@ -44,6 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10ca09b700684ea41a568fc934512c4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MaxStackedItems: 50
   Slots:
   - {fileID: 0}
   - {fileID: 0}
