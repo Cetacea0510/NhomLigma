@@ -51,7 +51,7 @@ public class Boss_Controllers : MonoBehaviour
             if (Time.time >= nextAttackTime)
             {
                 Attack();
-                nextAttackTime = Time.time + 3.14f / attackRate;
+                nextAttackTime = Time.time + 4f / attackRate;
             }
         }
     }
