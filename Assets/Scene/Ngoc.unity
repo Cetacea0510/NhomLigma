@@ -686,7 +686,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db2f0386bca10a24aa314984ecc516cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Map 1
+  sceneName: 0
 --- !u!114 &1010913632
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -732,8 +732,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1010913631}
-        m_TargetAssemblyTypeName: SceneSwitcher, Assembly-CSharp
-        m_MethodName: OnButtonClick
+        m_TargetAssemblyTypeName: SceneChanger, Assembly-CSharp
+        m_MethodName: OnTMPClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1492,6 +1492,7 @@ MonoBehaviour:
   - {fileID: 1279827960}
   - {fileID: 924914854}
   - {fileID: 547557458}
+  animator: {fileID: 0}
 --- !u!1 &1901797557
 GameObject:
   m_ObjectHideFlags: 0
@@ -1625,6 +1626,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ca4b546f84da41478f5fd594b6e6426, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneName: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

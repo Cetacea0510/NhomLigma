@@ -8,9 +8,6 @@ TagManager:
   - Treasure
   - Bullet
   - Enemy
-  - Gate1
-  - Gate2
-  - Gate3
   layers:
   - Default
   - TransparentFX
