@@ -8,6 +8,7 @@ public class TreasureScript : MonoBehaviour
     public int Health = 999999;
     public GameObject treasure;
     public GameObject treasureOpenButton;
+    [SerializeField] public AudioClip treasureOpen;
     void Start()
     {
         treasureOpenButton.SetActive(false);
@@ -43,5 +44,6 @@ public class TreasureScript : MonoBehaviour
     public void WhenButtonClicked()
     {
         treasure.SetActive (false);
+        AudioManager.instance.PlaySound(treasureOpen);
     }
 }
