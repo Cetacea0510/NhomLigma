@@ -63,6 +63,7 @@ public class Boss_Controllers : MonoBehaviour
 
         if (_health <= 0)
         {
+            rb.velocity = Vector2.zero;
             anim.SetBool("isAlive", false);
             Destroy(gameObject, 1);
         }
