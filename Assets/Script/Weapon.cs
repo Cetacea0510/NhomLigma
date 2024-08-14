@@ -11,6 +11,7 @@ public class Weapon : MonoBehaviour
     public Transform firePoint;
     public float fireRate = 0.5f;
     private float nextFireTime;
+    public AudioClip fireArrow;
 
     void Update()
     {
@@ -43,6 +44,7 @@ public class Weapon : MonoBehaviour
         //Rigidbody2D rb = arrowTmp.GetComponent<Rigidbody2D>();
         //rb.AddForce(transform.right * arrowForce, ForceMode2D.Impulse);
         //===
+        AudioManager.instance.PlaySound(fireArrow);
         Vector3 mousePos = Input.mousePosition;
         mousePos = Camera.main.ScreenToWorldPoint(mousePos);
 

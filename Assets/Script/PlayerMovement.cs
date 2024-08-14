@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEditor.Playables;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -84,6 +85,16 @@ public class PlayerMovement : MonoBehaviour
     public float maxHealth = 100;
     public float currentHealth;
 
+    public Image hpImage;
+    public Image hpDelayImage;
+    public float hurtSpeed = 0.5f;
+
+    public AudioSource footstepsSound;
+    public AudioClip gameOverAudio;
+
+    //========
+    public GameObject gameOverUI;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -93,6 +104,24 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         rb.velocity = moveInput * moveSpeed;
+        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D))
+        {
+            footstepsSound.enabled = true;
+        }
+        else
+        {
+            footstepsSound.enabled = false;
+        }
+
+        hpImage.fillAmount = currentHealth / maxHealth;
+        if (hpDelayImage.fillAmount > hpImage.fillAmount)
+        {
+            hpDelayImage.fillAmount -= hurtSpeed;
+        }
+        else
+        {
+            hpDelayImage.fillAmount = hpImage.fillAmount;
+        }
     }
 
     public void Move(InputAction.CallbackContext context)
@@ -134,6 +163,8 @@ public class PlayerMovement : MonoBehaviour
         {
             rb.velocity = Vector2.zero;
             rb.isKinematic = true;
+            AudioManager.instance.PlaySound(gameOverAudio);
+            gameOverUI.SetActive(true);
         }
         Destroy(gameObject, 1.4f);
     }
