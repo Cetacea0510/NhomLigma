@@ -4,7 +4,6 @@ using UnityEditor.Playables;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
-using static System.Runtime.CompilerServices.RuntimeHelpers;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -20,13 +19,6 @@ public class PlayerMovement : MonoBehaviour
     //===========
     public float maxHealth = 100;
     public float cunrrentHealth;
-
-    //===========
-    public AudioSource movementSound;
-    [SerializeField ]public AudioClip gameOverSound;
-
-    //==========
-    public GameObject gameOverPanel;
 
     // Start is called before the first frame update
     void Start()
@@ -51,22 +43,13 @@ public class PlayerMovement : MonoBehaviour
         {
             hpDelayImage.fillAmount = hpImage.fillAmount;
         }
-
-        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D))
-        {
-            movementSound.enabled = true;
-        }
-        else
-        {
-            movementSound.enabled = false;
-        }
     }
 
     public void Move(InputAction.CallbackContext context)
     {
         anim.SetBool("isWalking", true);
 
-        if (context.canceled)
+        if(context.canceled)
         {
             anim.SetBool("isWalking", false);
             anim.SetFloat("LastInputX", moveInput.x);
@@ -114,8 +97,6 @@ public class PlayerMovement : MonoBehaviour
         {
             rb.velocity = Vector2.zero; // Đặt vận tốc về 0
             rb.isKinematic = true; // Đặt chế độ kinematic để ngăn tương tác vật lý
-            gameOverPanel.SetActive(true);
-            AudioManager.instance.PlaySound(gameOverSound);
         }
         Destroy(gameObject, 1.4f);
     }
