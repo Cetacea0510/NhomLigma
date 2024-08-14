@@ -579,4 +579,3 @@ MonoBehaviour:
   Health: 10000
   treasure: {fileID: 8295380426312501092}
   treasureOpenButton: {fileID: 6453412067965868941}
-  treasureOpen: {fileID: 8300000, guid: 83a648584e72f914095960ed09ac2e24, type: 3}
