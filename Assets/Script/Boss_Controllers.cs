@@ -1,9 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 
 public class Boss_Controllers : MonoBehaviour
 {
+ 
     private float speed = 2f;
     private int facingDirection = 1;
     private EnemyState enemyState;
@@ -32,6 +34,8 @@ public class Boss_Controllers : MonoBehaviour
         anim = GetComponent<Animator>();
         anim.SetBool("isAlive", isAlive);
         ChangeState(EnemyState.Idle);
+        //==
+
     }
 
     // Update is called once per frame
@@ -54,6 +58,7 @@ public class Boss_Controllers : MonoBehaviour
                 nextAttackTime = Time.time + 4f / attackRate;
             }
         }
+        
     }
 
     public void TakeDamage(float damage)
@@ -65,7 +70,8 @@ public class Boss_Controllers : MonoBehaviour
         {
             rb.velocity = Vector2.zero;
             anim.SetBool("isAlive", false);
-            Destroy(gameObject, 1);
+            Destroy(gameObject, 1.2f);
+           
         }
     }
 

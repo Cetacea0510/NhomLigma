@@ -135,7 +135,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 20
+  m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
   m_Material: {fileID: 0}
@@ -279,6 +279,9 @@ MonoBehaviour:
   moveSpeed: 5
   maxHealth: 100
   currentHealth: 100
+  hpImage: {fileID: 0}
+  hpDelayImage: {fileID: 0}
+  hurtSpeed: 0.5
   footstepsSound: {fileID: 0}
   gameOverAudio: {fileID: 8300000, guid: 44020ac5e2a4abd4ea45c5299ab7babd, type: 3}
   gameOverUI: {fileID: 0}
@@ -298,7 +301,7 @@ CapsuleCollider2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_LayerOverridePriority: 0
+  m_LayerOverridePriority: 10
   m_ForceSendLayers:
     serializedVersion: 2
     m_Bits: 4294967295
