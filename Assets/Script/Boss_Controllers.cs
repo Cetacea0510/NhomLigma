@@ -5,6 +5,9 @@ using UnityEngine.Rendering.Universal;
 
 public class Boss_Controllers : MonoBehaviour
 {
+    public GameObject globalLight;
+    public GameObject currentLight;
+    public GameObject congratObject;
  
     private float speed = 2f;
     private int facingDirection = 1;
@@ -35,7 +38,9 @@ public class Boss_Controllers : MonoBehaviour
         anim.SetBool("isAlive", isAlive);
         ChangeState(EnemyState.Idle);
         //==
-
+        congratObject.SetActive(false);
+        globalLight.SetActive(true);
+        currentLight.SetActive(true);
     }
 
     // Update is called once per frame
@@ -68,9 +73,12 @@ public class Boss_Controllers : MonoBehaviour
 
         if (_health <= 0)
         {
+            globalLight.SetActive(false);
+            currentLight.SetActive(false);
             rb.velocity = Vector2.zero;
             anim.SetBool("isAlive", false);
             Destroy(gameObject, 1.2f);
+            congratObject.SetActive(true);
            
         }
     }
