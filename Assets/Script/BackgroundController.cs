@@ -7,7 +7,7 @@ public class BackgroundController : MonoBehaviour
 {
     public bool isSwitched = false;
     public Image[] backgrounds; // Thay đổi từ các biến riêng lẻ thành một mảng
-    public Animator animator;
+    private Animator animator;
 
     private int currentIndex = 0; // Chỉ số hình nền hiện tại
 
