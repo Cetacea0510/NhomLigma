@@ -20,7 +20,7 @@ public class MenuScript : MonoBehaviour
     }
     public void PlayGame()
     {
-        SceneManager.LoadScene("Ngoc");
+        SceneManager.LoadScene("Hieu2");
     }
     public void OnQuit()
     {
